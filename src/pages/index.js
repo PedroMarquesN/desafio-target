@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Soma from "@/pages/components/Soma";
 import FibonacciChecker from "@/pages/components/Fibonacci";
+import DescobrindoLogica from "@/pages/components/DescobrindoLogica";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ export default function Home() {
           <div>
               <FibonacciChecker/>
           </div>
+          <div>
+              <DescobrindoLogica/>
+          </div>
 
       </div>
-      );
+  );
 }
