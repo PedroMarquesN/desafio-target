@@ -21,14 +21,18 @@ export default function InversaoString() {
 
     return (
         <div className="bg-white rounded-lg shadow-lg p-4">
+            <label htmlFor="texto" className="block text-lg font-bold mb-2">Digite o texto para inverter:</label>
             <input
-                className="border-none bg-gray-100 rounded-md px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border border-gray-300 bg-gray-100 rounded-md px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 type="text"
+                id="texto"
                 value={texto}
                 onChange={handleInputChange}
-                placeholder="Digite o texto para inverter"
             />
-            <div className="text-lg">Texto invertido: {textoInvertido}</div>
+            <div className="flex items-center justify-between">
+                <p className="text-lg">Texto invertido:</p>
+                <p className="text-2xl font-semibold text-green-500">{textoInvertido}</p>
+            </div>
         </div>
     );
 }

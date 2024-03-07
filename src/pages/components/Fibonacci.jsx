@@ -37,7 +37,7 @@ export default function FibonacciChecker() {
         <div className="bg-white rounded-lg shadow-lg p-4">
             <label htmlFor="numero" className="block text-lg font-bold mb-2">Digite um número:</label>
             <input
-                className="border-none bg-gray-100 rounded-md px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border-none bg-gray-200 rounded-md px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 type="number"
                 id="numero"
                 value={inputNumero}
