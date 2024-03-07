@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
     return (
-        <div className="flex justify-center items-center bg-gradient-to-r from-purple-300 to-purple-800 h-screen">
+        <div className="flex justify-center items-center bg-gradient-to-r from-purple-300 to-purple-800 h-full">
             <div className="max-w-md mx-auto p-4">
                 <div className="mb-8">
                     <Soma />

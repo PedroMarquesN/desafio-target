@@ -20,9 +20,15 @@ export default function InversaoString() {
     };
 
     return (
-        <div>
-            <input type="text" value={texto} onChange={handleInputChange} placeholder="Digite o texto para inverter" />
-            <div>Texto invertido: {textoInvertido}</div>
+        <div className="bg-white rounded-lg shadow-lg p-4">
+            <input
+                className="border-none bg-gray-100 rounded-md px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                type="text"
+                value={texto}
+                onChange={handleInputChange}
+                placeholder="Digite o texto para inverter"
+            />
+            <div className="text-lg">Texto invertido: {textoInvertido}</div>
         </div>
     );
 }

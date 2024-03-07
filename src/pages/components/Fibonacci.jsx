@@ -34,20 +34,22 @@ export default function FibonacciChecker() {
     };
 
     return (
-        <div>
-            <label htmlFor="numero">Digite um número:</label>
-            <input className={`border-none`}
+        <div className="bg-white rounded-lg shadow-lg p-4">
+            <label htmlFor="numero" className="block text-lg font-bold mb-2">Digite um número:</label>
+            <input
+                className="border-none bg-gray-100 rounded-md px-4 py-2 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 type="number"
                 id="numero"
                 value={inputNumero}
                 onChange={(e) => setInputNumero(e.target.value)}
             />
-            <button className={`
-                cursor-pointer
-                border-blue-700
-            `}
-                    onClick={handleVerificar}>Verificar</button>
-            <p>{resultado}</p>
+            <button
+                className="bg-blue-500 text-white px-4 py-2 rounded-md font-bold cursor-pointer hover:bg-blue-600 transition duration-300"
+                onClick={handleVerificar}
+            >
+                Verificar
+            </button>
+            <p className="text-lg mt-4">{resultado}</p>
         </div>
     );
 }

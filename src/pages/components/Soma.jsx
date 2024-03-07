@@ -11,8 +11,9 @@ export default function Soma(props) {
     }
 
     return (
-        <div>
-            <p>Resultado da soma: {soma()}</p>
+        <div className="bg-white rounded-lg shadow-lg p-4">
+            <p className="text-lg font-bold mb-2">Resultado da soma:</p>
+            <p className="text-xl">{soma()}</p>
         </div>
     );
 }
