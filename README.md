@@ -18,6 +18,9 @@ bun dev
 ## Resolvendo Questão numero 2
 ## Resolvendo Questão numero 3
 ## Resolvendo Questão numero 4
+ Questão sobre Interruptores : 
+
+Ligue um dos interruptores e espere um pouco. Desligue e ligue um segundo interruptor. Vá até a sala. A lâmpada desligada e quente corresponde ao primeiro interruptor, a lâmpada acesa ao segundo e a lâmpada apagada e fria ao terceiro.
 ## Resolvendo Questão numero 5
 
 
